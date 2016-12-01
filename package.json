@@ -1,0 +1,27 @@
+{
+  "name": "node-statsd-base-line",
+  "version": "0.0.0",
+  "description": "Setup a baseline for demo purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudinsight/node-statsd-base-line.git"
+  },
+  "keywords": [
+    "cloudinsight",
+    "statsd"
+  ],
+  "author": "wyvernnot <wyvernnot@gmail.com> (http://wyvernnot.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloudinsight/node-statsd-base-line/issues"
+  },
+  "homepage": "https://github.com/cloudinsight/node-statsd-base-line#readme",
+  "dependencies": {
+    "cloudinsight-sdk": "^0.9.0",
+    "node-schedule": "^1.2.0"
+  }
+}
