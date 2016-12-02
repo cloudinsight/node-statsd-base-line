@@ -1,6 +1,6 @@
 # node-statsd-base-line
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg?style=flat-square)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/cloudinsight/node-statsd-base-line.svg?style=flat-square)]()
 
 > 使用 node.js 实现的 statsd 基准线
 
@@ -21,23 +21,23 @@
 
 `avg:base.counter.1s.1`
 
-![](./docs/chart_01.png)
+![](https://github.com/cloudinsight/node-statsd-base-line/raw/master/docs/chart_01.png)
 
 `sum:base.counter.1s.1` 
 
-![](./docs/chart_04.png) 
+![](https://github.com/cloudinsight/node-statsd-base-line/raw/master/docs/chart_04.png) 
 
 -----
 
 每 5 秒增加 5 的计数器
 
-![](./docs/chart_02.png)
+![](https://github.com/cloudinsight/node-statsd-base-line/raw/master/docs/chart_02.png)
 
 -----
 
 每 30 秒上传一次 5 的标量
 
-![](./docs/chart_03.png)
+![](https://github.com/cloudinsight/node-statsd-base-line/raw/master/docs/chart_03.png)
 
 ## 启动命令
 
