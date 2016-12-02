@@ -1,7 +1,10 @@
 # node-statsd-base-line
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg?style=flat-square)]()
+
 > 使用 node.js 实现的 statsd 基准线
 
-这个程序启动后会按照下表中的所有组合自动上传数据
+这个程序启动后会按照下表中的所有组合自动上传数据到 StatsD
 
 |  类型   |  间隔   |  值    |  标签    |
 | ------- | ------ |  ----- | ------- |
@@ -39,6 +42,6 @@
 ## 启动命令
 
 ```sh
-docker-compose up -d --build
+docker run --net=host cloudinsight/node-statsd-base-line
 ```
 
